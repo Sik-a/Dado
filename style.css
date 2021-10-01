@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+  background-color: #F1F1F1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  width: 50vw;
+  margin: 0;
+  padding: 15px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+#indicador{
+  font-size: 36px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #D9810B;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
